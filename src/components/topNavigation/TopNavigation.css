@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 77px;
+  padding: 26px 20px;
+  background: #6b3cc9;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+}
+
+.logo {
+  margin-left: 80px;
+  width: 238.89px;
+  height: 36.11px;
+  margin-bottom: 17px;
+}
+
+.navbar li {
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+.toggle-menu {
+  display: none;
+}
+
+.toggle-img {
+  width: 31px;
+  height: 24px;
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+  .navbar{
+    padding: 26px 20px;
+  }
+  .logo {
+    margin-left: 0;
+    width: 238.89px;
+    height: 36.11px;
+    margin-bottom: 17px;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+  }
+
+  .nav-links.active {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 375px) {
+  .toggle-menu {
+    display: block;
+    cursor: pointer;
+  }
+  .logo {
+    margin-left: 0;
+    width: 238.89px;
+    height: 36.11px;
+    margin-bottom: 17px;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 77px;
+    left: 0;
+    width: 100%;
+    background: #6b3cc9;
+    z-index: 1;
+  }
+
+  .nav-links.active {
+    display: flex;
+    flex-direction: column;
+  }
+}

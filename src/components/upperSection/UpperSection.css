@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.upperSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 896px;
+  height: 346px;
+  top: 857px;
+  left: 152px;
+  gap: 20px;
+}
+.upSecCol {
+  margin: auto;
+}
+.upperSectionImg {
+  margin-left: -80px;
+  width: 346px;
+  height: 346px;
+  gap: 20px;
+}
+.upperSectionHeading {
+  width: 507px;
+  margin-top: 33px;
+  font-family: "Poppins";
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: left;
+  color: #6b3cc9;
+}
+.upperSectionParagraph {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+}
+.SectionBtn {
+  background-color: #f28d35;
+  width: 129px;
+  height: 38px;
+  gap: 8px;
+  border-radius: 4px 0px 0px 0px;
+  color: #ffffff;
+  border: none;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .upperSection {
+    margin-top: 305px;
+    width: 1064px;
+    height: 414px;
+  }
+  .upperSectionImg {
+    margin-top: 63px;
+    margin-left: -50px;
+    width: 275px;
+    height: 275px;
+  }
+  .upperSectionHeading {
+    font-family: "Poppins";
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: #6b3cc9;
+    height: 66px;
+  }
+  .upperSectionParagraph {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #000000;
+    width: 393px;
+    height: 95px;
+  }
+}
+@media (max-width: 375px) {
+  .upperSection {
+    margin-top: 305px;
+    width: 335px;
+    height: 572.82px;
+  }
+  .upSecCol {
+    width: 100%;
+  }
+  .upperSectionImg {
+    width: 275px;
+    height: 275.82px;
+    margin-left: 20px;
+  }
+  .upSecCol {
+    width: 100%;
+  }
+  .upperSectionHeading {
+    font-family: "Poppins";
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: center;
+    width: 335px;
+    height: 66px;
+  }
+  .upperSectionParagraph {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    color: #000000;
+    width: 335px;
+    height: 133px;
+  }
+  .SectionBtn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+}

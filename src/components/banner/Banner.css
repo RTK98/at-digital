@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+.services-container {
+  position: relative;
+}
+.heroSection {
+  width: 100%;
+  display: flex;
+}
+.square {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 354px;
+  left: 80px;
+  width: 630px;
+  height: 306px;
+  padding: 24px 40px 32px 40px;
+  gap: 20px; /* Gap */
+  background: linear-gradient(256.73deg, #1cbddd 27.86%, #4dca79 100%);
+  color: #ffffff;
+}
+.squareHeading {
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.bannerButton {
+  width: 214px;
+  height: 38px;
+  padding: 12px 20px 12px 20px;
+  gap: 8px;
+  border-radius: 4px 0px 0px 0px;
+  background-color: #f28d35;
+  color: #ffffff;
+  border: none;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+}
+@media (max-width: 1200px) {
+  .square {
+   
+  top: 317px;
+  }
+}
+@media (max-width: 768px) {
+  .square {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: auto;
+    left: 0;
+  }
+}
+@media (max-width: 375px) {
+  .square {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .squareHeading {
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+}
