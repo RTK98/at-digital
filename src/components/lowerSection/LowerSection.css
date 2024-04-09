@@ -81,7 +81,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .lowerRow{
     display: flex;
     flex-direction: column-reverse;
@@ -123,5 +123,9 @@
     color: #000000;
     width: 335px;
     height: 133px;
+  }
+  .SectionBtn {
+    
+    margin-bottom: 10px;
   }
 }

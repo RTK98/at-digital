@@ -3,7 +3,6 @@
 .footer {
   background: #6b3cc9;
   width: 100%;
-  height: 266px;
   top: 2183px;
   padding: 40px 60px 20px 60px;
   gap: 40px;
@@ -27,15 +26,80 @@
   text-align: left;
   color: #ffffff;
 }
+.footerMainLinks {
+  margin-top: 12px;
+}
 .footerLinks {
   list-style: none;
   display: contents;
-  width: 56px;
+  width: auto;
   height: 104px;
   gap: 12px;
   color: #ffffff;
+  margin-top: 28px;
+}
+.divider {
+  border: none;
+  width: 630px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 28px auto;
+}
+.footerFinal {
+  position: relative;
+  margin-top: -10px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (max-width: 1440px) {
+  .Footerlogo {
+    margin-left: 32px;
+  }
+  .footerP {
+    width: 413px;
+    height: 57px;
+    margin-left: 32px;
+    margin-top: 28px;
+  }
+  .footerSubHeading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
+  }
+}
+@media (max-width: 1200px) {
+  .Footerlogo {
+    margin-left: 32px;
+  }
+  .footerP {
+    width: 413px;
+    height: 57px;
+    margin-left: 32px;
+    margin-top: 28px;
+  }
+  .footerSubHeading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
+  }
 }
 @media (max-width: 768px) {
+  .first {
+    order: 1;
+  }
+  .godown {
+    order: 2;
+    margin-left:-8px
+  }
   .Footerlogo {
     margin-left: -30px;
   }
@@ -50,5 +114,27 @@
     justify-content: flex-start;
     align-items: baseline;
     align-content: flex-start;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 376px) {
+  .first {
+    order: 1;
+  }
+  .godown {
+    order: 2;
+    margin-left:-8px
+  }
+  .Footerlogo {
+    margin-left: -30px;
+  }
+  .footerP {
+    width: auto;
+    /* height: 57px; */
+  }
+  .footerSubHeading{
+    margin-top: 103px;
+    margin-left: -14px;
+    margin-right: 15px;
   }
 }

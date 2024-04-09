@@ -86,7 +86,7 @@
     height: 95px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .upperSection {
     margin-top: 305px;
     width: 335px;

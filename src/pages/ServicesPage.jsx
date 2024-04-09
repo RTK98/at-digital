@@ -10,7 +10,7 @@ function Services() {
       <Banner />
       <UppserSection />
       <LowerSection />
-      {/* <FAQ/> */}
+      <FAQ />
     </>
   );
 }

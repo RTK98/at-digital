@@ -3,7 +3,7 @@ import "./UpperSection.css";
 import ImageUpper from "../../assets/img/imageUpper.png";
 function UppserSection() {
   return (
-    <div className="">
+    <div>
       <div className="container upperSection">
         <div className="row">
           <div className="col-4 upSecImg">

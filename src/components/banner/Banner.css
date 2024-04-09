@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 .services-container {
   position: relative;
+  width: 100%;
 }
 .heroSection {
   width: 100%;
@@ -44,8 +45,7 @@
 }
 @media (max-width: 1200px) {
   .square {
-   
-  top: 317px;
+    top: 317px;
   }
 }
 @media (max-width: 768px) {
@@ -58,11 +58,12 @@
     left: 0;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .square {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 294px;
   }
   .squareHeading {
     font-family: "Inter";
